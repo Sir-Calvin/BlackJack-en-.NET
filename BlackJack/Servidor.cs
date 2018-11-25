@@ -14,6 +14,9 @@ namespace BlackJack
         ManualResetEvent allDone = new ManualResetEvent(false);
         public delegate void Jugada(string s);
         public event Jugada jugada;
+        
+        Mazo mazo = new Mazo();
+		Respuesta respuesta = new Respuesta();
         ///
         /// Configura el servidor
         ///
@@ -90,6 +93,13 @@ namespace BlackJack
             if (deserializada.otra)
             {
                 this.jugada("El cliente " + nombre + " pidió otra.");
+                
+                //Saco una carta del mazo y se la envio al Cliente	
+				respuesta.Carta = mazo.SacarCarta();
+				byte[] datos = respuesta.Serialize();
+				respuesta.Socket.Send(datos);
+
+				this.jugada("Carta enviada a "+nombre);
             }
             else
             {
