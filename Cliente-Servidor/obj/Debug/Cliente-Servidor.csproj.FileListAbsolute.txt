@@ -1,0 +1,7 @@
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\bin\Debug\Cliente-Servidor.exe.config
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\bin\Debug\Cliente-Servidor.exe
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\bin\Debug\Cliente-Servidor.pdb
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\obj\Debug\Cliente-Servidor.csprojAssemblyReference.cache
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\obj\Debug\Cliente-Servidor.csproj.CoreCompileInputs.cache
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\obj\Debug\Cliente-Servidor.exe
+D:\Archivos de Gonzalo\Programación\PGE\TP Final\BlackJack-en-.NET\Cliente-Servidor\obj\Debug\Cliente-Servidor.pdb
